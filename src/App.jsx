@@ -5,7 +5,7 @@ import Login from "./pages/Login.jsx";
 import Profile from "./pages/Profile.jsx";
 import { Toaster } from "react-hot-toast";
 import { AuthContext } from "../context/AuthContext.jsx";
-import background from "./assets/background.jpg"
+
 
 const App = () => {
 const {authUser}=useContext(AuthContext)
